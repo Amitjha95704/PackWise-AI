@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PackWise AI - Intelligent Food Packaging Recommendation System</title>
+    <meta name="description" content="Intelligent Food Packaging Material Recommendation System - condition-aware decision engine analyzing commodity, journey, environmental conditions, and sustainability." />
+    <meta property="og:title" content="PackWise AI - Intelligent Food Packaging Recommendation System" />
+    <meta property="og:description" content="Intelligent Food Packaging Material Recommendation System - condition-aware decision engine analyzing commodity, journey, environmental conditions, and sustainability." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <script>
+      // HMR is disabled in AI Studio environment. Suppress WebSocket errors.
+      window.addEventListener('unhandledrejection', function(event) {
+        var reasonStr = String(event.reason && (event.reason.message || event.reason) || '');
+        if (reasonStr.indexOf('WebSocket') !== -1 || reasonStr.indexOf('vite') !== -1) {
+          event.preventDefault();
+          event.stopImmediatePropagation();
+        }
+      });
+      window.addEventListener('error', function(event) {
+        var msg = String(event.message || '');
+        if (msg.indexOf('WebSocket') !== -1 || msg.indexOf('vite') !== -1) {
+          event.preventDefault();
+          event.stopImmediatePropagation();
+        }
+      });
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

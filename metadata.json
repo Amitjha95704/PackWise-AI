@@ -1,0 +1,6 @@
+{
+  "name": "PackWise AI",
+  "description": "Intelligent Food Packaging Material Recommendation System - condition-aware decision engine analyzing commodity, journey, environmental conditions, and sustainability.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
